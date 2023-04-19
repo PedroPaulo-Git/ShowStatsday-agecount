@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Validator
+    </title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <header>
+    <h1>Age Validator</h1>
+    </header>
+    <section>
+        <p>Year of Birth:
+        <input type="number" name="txty" id="txty" min="0">
+       </p>  
+
+     <p>
+            Sex:
+           
+         <input type="radio" name="sex1" id="sex1" checked>
+         <label for="sex1">Man</label>
+            <input type="radio" name="sex1" id="sex1">
+            <label for="sex2">Women</label>
+        </p>  
+
+       
+
+       <p>
+            <input type="button" value="Verify" onclick="verify()">
+        </p> 
+        <div id="res">
+            Fill in the data above to see the result!
+
+
+    </div>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>

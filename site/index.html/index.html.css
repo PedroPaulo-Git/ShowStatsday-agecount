@@ -1,0 +1,32 @@
+body{
+   font: Normal pt Arial; 
+   color: rgb(221, 250, 56) ;
+   background-color: brown;
+
+text-align: center;
+margin-top: 10vh;
+
+
+}
+section{
+color: rgb(250, 196, 238);
+line-height: 5px;
+    font-size: 40px;
+    background: red ;
+margin: auto;
+    border-radius: 5px;
+   height : 300px ;
+   width: 380px;
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+padding: 20px;
+}
+div{
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+display: block;
+margin: 90px 80px 0px 14px;
+width: 290px;
+
+    
+
+}
